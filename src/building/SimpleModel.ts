@@ -78,7 +78,7 @@ export class SimpleModel {
   }
   
   private generateBlockBuildings(x: number, y: number, blockSize: number): void {
-    const numBuildings = Random.int(2, 6);
+    const numBuildings = Random.int(2, 7); // 2-6 buildings inclusive
     const buildingTypes = ['house', 'shop', 'tower', 'church'];
     
     if (numBuildings === 1) {

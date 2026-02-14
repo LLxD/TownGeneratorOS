@@ -93,7 +93,7 @@ function drawPolygon(
   
   if (strokeColor) {
     ctx.strokeStyle = strokeColor;
-    ctx.lineWidth = 1;
+    ctx.lineWidth = 1.5; // Slightly thicker for visibility
     ctx.stroke();
   }
 }
